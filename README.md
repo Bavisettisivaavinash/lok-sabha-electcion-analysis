@@ -40,7 +40,7 @@ To run this project, you will need the following:
 1. **Run the scraping script**:
 
     ```sh
-    python scrape_data.py
+    python scraping-script.py
     ```
 
     This script will fetch the data from the specified URL and save it as a CSV file (`election_results.csv`).
@@ -71,26 +71,16 @@ The analysis is performed using PySpark. The key steps involved are:
 
 The report generated includes the following key insights:
 
-1. **Total number of constituencies analyzed**.
-2. **Top 5 states with the highest number of constituencies**.
-3. **Distribution of constituencies across states**.
-4. **Party-wise distribution in each state**.
-5. **Winning margins in key constituencies**.
-6. **Voter turnout in top constituencies**.
-7. **Gender distribution of elected members**.
-8. **Age distribution of elected members**.
-9. **Educational qualifications of elected members**.
-10. **Incumbency vs. new faces in the election**.
-
-## Results
-
-The results of the analysis are saved in the `results` directory as a CSV file and a detailed report in PDF format.
+1. **Top performing party by total votes**.
+2. **Candidate with the largest margin of victory**.
+3. **Average margin by party**.
+4. **Constituency with the smallest margin**.
+5. **Top candidates by total votes**.
+6. **Competitive constituencies (margin < 50000)**.
+7. **Party strongholds by average margin**.
+8. **No of seats won by each party**.
+9. **Voting Efficiency**.
 
 ## Contributors
 
-- Your Name - [@yourusername](https://github.com/yourusername)
-- Additional Contributors
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Your Name - [@Bavisettisivaavinash](https://github.com/Bavisettisivaavinash)
