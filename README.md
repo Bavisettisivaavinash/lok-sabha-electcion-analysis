@@ -29,12 +29,6 @@ To run this project, you will need the following:
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install the required packages**:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ## Usage
 
 1. **Run the scraping script**:
